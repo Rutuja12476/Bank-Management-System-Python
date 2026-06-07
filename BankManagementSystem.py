@@ -126,7 +126,7 @@ class BankAccount:
                 f.write(line)
 
         if found:
-            print("🗑️ Account Deleted Successfully")
+            print(" Account Deleted Successfully")
         else:
             print("❌ Account Not Found")
 
@@ -138,7 +138,7 @@ while True:
     print("2. 💰 Deposit Money")
     print("3. 💸 Withdraw Money")
     print("4. 📄 Display Account")
-    print("5. 🗑️ Delete Account")
+    print("5. ❎ Delete Account")
     print("6. 🚪 Exit")
    
 
